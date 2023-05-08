@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .quiz-container {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .question-text {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .answer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .answer input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.5);
+  }
+  
+  .answer-label {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  button {
+    background-color: #20e27b;
+    color: #fff;
+    border: double;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0000ff;
+  }
+  form {
+    margin: auto;
+    max-width: 600px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  body {
+    background-color: #e3f2fd; /* tono de azul claro */
+  }
+  body {
+    background-image: url('logo-escuela.png');
+    background-size: auto;
+    background-repeat: repeat;
+    opacity: 1
+;
+  }
+  

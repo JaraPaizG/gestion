@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="gestion.css">
+    <title>Preguntas sobre gestión de cuidados en la red pública de los servicios de salud</title>
+</head>
+<body>
+    <h1 style="position: center;">A jugar</h1>
+    <form id="quiz-form">
+        <fieldset>
+          <legend>Pregunta 1:</legend>
+          <p>¿Qué es un plan de cuidados en la red pública de los servicios de salud?</p>
+          <label>
+            <input type="radio" name="p1" value="0">
+            Un documento que detalla los tratamientos médicos necesarios para el paciente.
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="p1" value="0">
+            Un registro de los gastos médicos del paciente.
+          </label>
+          <br>
+          <label>
+            <input type="radio" name="p1" value="1">
+            Un listado de la medicación que el paciente debe tomar diariamente.
+          </label>
+        </fieldset>
+       
+        <fieldset>
+            <legend>Pregunta 2:</legend>
+            <p>¿Cuál es la función de un coordinador de cuidados en la red pública de los servicios de salud?</p>
+            <label>
+              <input type="radio" name="p2" value="0">
+              Administrar los medicamentos al paciente.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="p2" value="1">
+              Planificar el tratamiento médico del paciente.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="p2" value="0">
+              Hacer seguimiento a los gastos médicos del paciente.
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Pregunta 3:</legend>
+            <p>¿Qué desafíos presenta la implementación de la gestión de cuidados en la red pública de los servicios de salud?</p>
+            <label>
+              <input type="radio" name="p3" value="1">
+              Falta de recursos humanos y financieros.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="p3" value="0">
+              Escasez de pacientes en las instituciones de salud pública.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="p3" value="0">
+              Ausencia de tecnología de punta para el cuidado de pacientes.
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Pregunta 4:</legend>
+            <p>¿Cómo pueden los profesionales de la salud contribuir a mejorar la gestión de cuidados en la red pública de los servicios de salud?</p>
+            <label>
+              <input type="radio" name="p4" value="0">
+              Realizando más horas de trabajo en el hospital.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="p4" value="1">
+              Participando en programas de capacitación y actualización.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="p4" value="0">
+              Aumentando el precio de las consultas médicas.
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Pregunta 5:</legend>
+            <p>¿Cuáles son las consecuencias de una mala gestión de cuidados en la red pública de los servicios de salud?</p>
+            <label>
+              <input type="radio" name="p5" value="0">
+              Aumento de la calidad de vida de los pacientes.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="p5" value="0">
+              Mejora en la eficiencia y efectividad de los tratamientos médicos.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="p5" value="1">
+              Deterioro en la calidad de los servicios de salud y aumento de la morbimortalidad.
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Pregunta 6:</legend>
+            <p>¿Qué es el cuidado centrado en la persona?</p>
+            <label>
+              <input type="radio" name="p6" value="0">
+              Un enfoque médico que prioriza los tratamientos farmacológicos.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="p6" value="0">
+              Una metodología que prioriza el control de gastos en el cuidado del paciente.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="p6" value="1">
+              Un enfoque que considera al paciente como el eje central del cuidado y la toma de decisiones.
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Pregunta 7:</legend>
+            <p>¿Qué se entiende por continuidad de cuidados en la atención sanitaria?</p>
+            <label>
+              <input type="radio" name="p7" value="1">
+              El seguimiento del paciente a lo largo del tiempo y en distintos niveles asistenciales.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="p7" value="0">
+              La atención médica en momentos puntuales del proceso de la enfermedad.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="p7" value="0">
+              La coordinación entre distintos servicios médicos para la atención de un mismo paciente
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Pregunta 8:</legend>
+            <p>¿Qué papel juegan las tecnologías de la información y comunicación en la gestión de cuidados en la red pública de los servicios de salud?</p>
+            <label>
+              <input type="radio" name="p8" value="1">
+              Facilitan la comunicación entre los distintos profesionales de la salud y mejoran la calidad del registro clínico del paciente.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="p8" value="0">
+               Son un gasto innecesario en el sistema de salud.
+            </label>
+            <br>
+            <label>
+              <input type="radio" name="p8" value="0">
+              No tienen impacto en la calidad del cuidado del paciente.
+            </label>
+        </fieldset>
+        <button type="submit" onclick="calcularPuntaje()">Terminar</button>
+      </form>
+      
+      <script>
+        function calcularPuntaje() {
+          var preguntas = document.querySelectorAll('fieldset');
+          var puntajeTotal = 0;
+          for (var i = 0; i < preguntas.length; i++) {
+            var respuestas = preguntas[i].querySelectorAll('input[type="radio"]');
+            for (var j = 0; j < respuestas.length; j++) {
+              if (respuestas[j].checked && respuestas[j].value === '1') {
+                puntajeTotal++;
+              }
+            }
+          }
+          alert('Tu puntaje total es: ' + puntajeTotal);
+        }
+      </script>
+</body>
+</html>
